@@ -1,0 +1,2 @@
+COREBOOT_REPO="https://github.com/roboard/coreboot.git"
+SEABIOS_REPO="https://github.com/roboard/seabios.git"

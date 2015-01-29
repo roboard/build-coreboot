@@ -1,0 +1,4 @@
+/coreboot/
+/seabios/
+/out/
+.target

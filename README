@@ -1,0 +1,19 @@
+This tool builds DMP coreboot/SeaBIOS ROM image for 86Duino.
+
+
+First, download coreboot/SeaBIOS source code for 86Duino:
+
+  ./clone-repo.sh
+
+Build cross gcc compiler, it may take several minutes:
+
+  ./build-xgcc.sh
+
+Build the target :
+
+  ./set-target.sh target/86duino-0.9beta-oss.opt
+
+  make
+
+If building is successful, output ROM file is in out/86duino-0.9beta-oss.rom.
+

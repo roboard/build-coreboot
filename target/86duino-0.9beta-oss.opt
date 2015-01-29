@@ -1,0 +1,16 @@
+COREBOOT_COMMIT="86duino-bios-0.9beta-oss"
+COREBOOT_CONFIG="config.86duino-0.9beta"
+
+SEABIOS_COMMIT="86duino-bios-0.9beta-oss"
+#SEABIOS_COMMIT="oss"
+SEABIOS_CONFIG="config.quiet"
+
+ADD_SEABIOS_CONFIG=1
+
+IGNORE_COREBOOT_SEABIOS_CONFIG_CONFLICT=1
+
+CROSSBAR="crossbar-86Duino.bin"
+
+BOOTORDER="bootorder-sd-usb-spi"
+BOOT_MENU_WAIT=1
+SCREEN_AND_DEBUG=0
